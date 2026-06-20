@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thecommonground.ph/sitemap.xml

@@ -1,0 +1,48 @@
+import type { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Foundation Polo',
+    price: 699,
+    tag: 'Essential',
+    description: 'Clean-cut button-down polo. Heavy cotton, built to last.',
+    image: '/images/foundation-polo.jpg',
+    accent: 'group-hover:text-accent',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Black', 'White', 'Navy', 'Olive'],
+  },
+  {
+    id: 2,
+    name: 'Common Ground Hoodie',
+    price: 1299,
+    tag: 'Best Seller',
+    description: 'Oversized comfort meets understated statement.',
+    image: '/images/common-ground-hoodie.jpg',
+    accent: 'group-hover:text-accent',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Black', 'Grey', 'Cream'],
+  },
+  {
+    id: 3,
+    name: 'Unity Cap',
+    price: 499,
+    tag: 'New',
+    description: 'Embroidered. Structured. Yours.',
+    image: '/images/unity-cap.jpg',
+    accent: 'group-hover:text-accent',
+    sizes: ['One Size'],
+    colors: ['Black', 'Navy', 'Khaki'],
+  },
+  {
+    id: 4,
+    name: 'Grounded Pullover',
+    price: 1499,
+    tag: 'Limited',
+    description: 'For the ones who show up, every single time.',
+    image: '/images/grounded-pullover.jpg',
+    accent: 'group-hover:text-accent',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Charcoal', 'Forest', 'Sand'],
+  },
+];
